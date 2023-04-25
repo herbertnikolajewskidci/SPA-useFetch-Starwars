@@ -11,7 +11,8 @@
 5. Add an index page to the application that will be displayed when the application loads.
 
 6. Create a `CharacterDetails.jsx` component that displays a detailed description of a product. Use a dynamic route to get to this page. Link this component from the `StarwarsCharacter` page.
-7. **To get to all the data, it is best to use useContext and create a provider component that makes the API call for you and then passes the received data as global-state to the `CharacterDetails.jsx` component and `StarwarsCharacter` page.**
+7. To get to all the data, it is best to use useContext and create a provider component that makes the API call for you and then passes the received data as global-state to the `CharacterDetails.jsx` component and `StarwarsCharacter` page.
+8. **Now please offload the API call itself into a custom hook named `useFetch` and include this hook in your provider component.**
 
 **Note**
 
