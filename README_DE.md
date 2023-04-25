@@ -6,7 +6,8 @@
 4.  Ändern Sie die Navbar-Komponente so, dass sie mithilfe von `NavLink` eine aktive Klasse auf der ausgewählten Verknüpfung anzeigt.
 5.  Fügen Sie der Anwendung eine Index-Seite hinzu, die beim Laden der Anwendung angezeigt wird.
 6.  Erstellen Sie eine `CharacterDetails.jsx`-Komponente, die eine detaillierte Beschreibung eines Produkts anzeigt. Verwenden Sie eine dynamische Route, um auf diese Seite zu gelangen. Verknüpfen Sie diese Komponente von der "StarwarsCharacter"-Seite aus.
-7.  **Um an alle Daten heranzukommen, benutzen Sie am besten useContext und erstelle eine Provider-Komponente, welche den API-Call für Sie macht und dann die empfangenen Daten als als Global-State an die `CharacterDetails.jsx`-Komponente und `StarwarsCharacter`-Page weiterreicht.**
+7.  Um an alle Daten heranzukommen, benutzen Sie am besten useContext und erstelle eine Provider-Komponente, welche den API-Call für Sie macht und dann die empfangenen Daten als als Global-State an die `CharacterDetails.jsx`-Komponente und `StarwarsCharacter`-Page weiterreicht.
+8.  **Jetzt lagern sie bitte den API-Call selber in einen Custom-Hook names `useFetch` aus und binden Sie diesen Hook in Ihrer Providerkomponente ein.**
 
 **Hinweis**
 
